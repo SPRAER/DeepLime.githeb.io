@@ -13,7 +13,7 @@ header {
 	width: 100%;
 	height: 100VH;
 	background: linear-gradient(-45deg, #E78283, #F0D68A);
-	background-image: url(img/Layer_15.png) cover;
+	background-image: url(img/Layer_15.png);
 }
 
 .logo {
@@ -42,12 +42,9 @@ nav {
 }
 
 .nav_link:hover {
-	border-radius: 10px;
 	color: rgb(255, 191, 0);
-	border: 2px solid rgb(255, 191, 0);
-	padding: 7px;
-	margin-top: -7px;
-	margin-left: -7px;
+	border-bottom: 2px solid rgb(255, 191, 0);
+	padding-bottom: 7px;
 }
 
 .img_menu:hover {
@@ -63,6 +60,29 @@ nav {
 	color: rgb(255, 255, 255);
 }
 
+/* секция 1*/
+
+h1 {
+	line-height: 2;
+}
+
+@media screen and (max-width: 930px) {
+	h1 {
+		font-size: 80px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	.titles_2 {
+		font-size: 25px;
+	}
+
+}
+
 .mogo {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 150px;
@@ -70,19 +90,15 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5%;
-
-	color: rgb(255, 255, 255);
-	line-height: 0.5;
-
 }
 
 .to_mogo {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 150px;
 	margin-top: 5%;
-	color: rgb(255, 255, 255);
-	line-height: 0.2;
+	color: #fff;
+	line-height: 1;
+	text-align: center;
 }
 
 .baton {
@@ -94,16 +110,12 @@ nav {
 }
 
 button {
-	padding: 20px 40px;
+	padding: 15px 30px;
 	text-transform: uppercase;
-	color: #fff;
 	font-size: 20px;
-	border-radius: 20px;
-	background-color: #ECB486;
-	border: 4px solid #E78582;
-	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
-	transition: 3s;
-
+	border: 3px solid #fff;
+	transition: 1s;
+	background: rgba(0, 0, 0, 0);
 }
 
 button a {
