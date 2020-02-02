@@ -116,6 +116,7 @@ button {
 	font-size: 20px;
 	border: 3px solid #fff;
 	background: rgba(0, 0, 0, 0);
+	cursor: pointer;
 }
 
 button a {
@@ -716,6 +717,81 @@ h2 {
 	padding-top: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+/* секция 12 */
+
+.Section12 {
+	background-image: url(img/Layer_53.png);
+}
+
+.Section12ContentPart1 {
+	cursor: pointer;
+}
+
+.Section12ContentPart3TextPart1 {
+	font-size: 14px;
+	font-family: "Montserrat";
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+}
+
+.Section12Content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.Section12ContentPart3Poloska {
+	border-top: #f38181 2px solid;
+	width: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.Section12ContentPart3TextPart2 {
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(51, 51, 51);
+	font-style: italic;
+	text-align: left;
+}
+
+.Section12ContentPart3TextPart3 {
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(153, 153, 153);
+	text-align: left;
+	max-width: 370px;
+}
+
+.Section12ContentPart1 {
+	display: flex;
+	margin: 80px 80px;
+}
+
+.Section12ContentPart3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.Section12ContentPart2 {
+	width: 80px;
+	height: 80px;
+	margin-right: 30px;
+}
+
+/* секция 14 */
+
+.Section13ContentPart1Img {
+	z-index: -1;
+}
+
+.Section13ContentPart1Text {
+	margin-top: -100px;
+	margin-left: -20px;
 }
 
 /* секция 14 */
