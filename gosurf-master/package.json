@@ -1,7 +1,7 @@
 {
   "name": "gulp-lesson",
   "version": "1.0.0",
-  "homepage": "https://haasson.github.io/gosurf/",
+  "homepage": "https://spraer.github.io/gosurf/",
   "main": "gulpfile.js",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
